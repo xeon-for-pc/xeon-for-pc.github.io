@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap");
+
+*,
+*::before,
+*::after {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+}
+
+a {
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+}
+
+
+body {
+        background-image: linear-gradient(rgb(4, 42, 68), rgb(20, 122, 142));
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+}
+
+.container {
+        min-height: 100vh;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        max-width: 1154px;
+        padding: 15px;
+}
+
+.main {
+        margin: auto;
+}
+
+.img {
+        text-align: center;
+        max-width: 250px;
+}
+
+.portr {
+        text-align: center;
+}
+
+h1 {
+        color: rgb(245, 245, 245);
+        font-size: 40px;
+        font-weight: 600;
+        margin: 12px auto;
+        text-align: center;
+        line-height: 1.2;
+}
+
+h2 {
+        color: rgb(245, 245, 245);
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 1.2;
+}
+
+.links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+.link {
+        border: 1px solid transparent;
+        display: block;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        max-width: 378px;
+        width: 100%;
+}
+
+.link:hover {
+        border: 1px solid rgb(255, 255, 255);
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        transition: 0.3s ease;
+}
+
+
+h3 {
+        font-size: 28px;
+        font-weight: 600;
+        padding: 10px 0;
+        line-height: 1.2;
+}
+
+.descr {
+        color: rgb(235, 235, 235);
+        font-size: 20px;
+        font-weight: 400;
+        padding: 10px 0;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 10px;
+}
+
+.link-item {
+        margin-bottom: 5px;
+}
+
+.skl {
+        color: rgb(145, 144, 144);
+        font-size: 16px;
+
+}
+
+.link-skl {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+}
+
+.th {
+        margin-right: 25px;
+}
+
+.link:hover,
+.th:hover,
+.hw:hover {
+        color: rgb(255, 255, 255);
+        transition: 0.3s ease;
+}
+
+.margin {
+        margin: 0px auto;
+}
