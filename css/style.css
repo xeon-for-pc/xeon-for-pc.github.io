@@ -31,7 +31,7 @@ body {
         margin: auto;
         display: flex;
         flex-direction: row;
-        max-width: 1165px;
+        max-width: 1240px;
         padding: 15px;
 }
 
@@ -61,21 +61,25 @@ h2 {
 }
 
 .links {
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
+        width: 100%;
 }
-
 
 .link {
         border: 1px solid transparent;
-        display: block;
+        display: inline-block;
         border-radius: 10px;
         padding: 20px;
         margin-bottom: 10px;
         background-color: rgb(255, 255, 255);
-        text-align: center;
-        max-width: 378px;
+        max-width: 384px;
         width: 100%;
+}
+
+.link:last-child {
+        margin-bottom: 0;
 }
 
 .link:hover {
