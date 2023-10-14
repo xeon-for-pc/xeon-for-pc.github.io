@@ -1,4 +1,7 @@
 User-agent: Yandex
 Disallow: /
 
-https://xeon-for-pc.github.io/
+User-agent: *
+Allow: /
+
+Host: https://xeon-for-pc.github.io/
