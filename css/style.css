@@ -39,9 +39,10 @@ body {
         margin: auto;
 }
 
-.img {
+.portr img {
         text-align: center;
         max-width: 250px;
+        max-height: 250px;
 }
 
 
