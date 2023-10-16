@@ -82,6 +82,7 @@ h2 {
         background-color: rgb(255, 255, 255);
         max-width: 384px;
         width: 100%;
+        transition: all 0.3s ease 0s;
 }
 
 .link:last-child {
@@ -92,5 +93,4 @@ h2 {
         border: 1px solid rgb(255, 255, 255);
         background-color: transparent;
         color: rgb(255, 255, 255);
-        transition: 0.3s ease;
 }
