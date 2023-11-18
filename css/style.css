@@ -17,8 +17,6 @@ a {
 
 body {
         background-image: linear-gradient(rgb(4, 42, 68), rgb(20, 122, 142));
-        background-repeat: no-repeat;
-        background-size: cover;
         font-family: "Inter", sans-serif;
         font-size: 18px;
         text-align: center;
@@ -29,7 +27,6 @@ body {
         min-height: 100vh;
         margin: auto;
         display: flex;
-        flex-direction: row;
         max-width: 1240px;
         padding: 15px;
 }
@@ -59,7 +56,7 @@ h1 {
         font-size: 40px;
         font-weight: 600;
         line-height: 1.3;
-        transition: all 0.3s ease 0s;
+        transition: color 0.3s;
 }
 
 h1:hover {
@@ -72,6 +69,13 @@ h2 {
         line-height: 1.3;
 }
 
+.el {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+}
+
 .links {
         margin: 0 auto;
         display: flex;
@@ -81,24 +85,16 @@ h2 {
 
 .link {
         border: 1px solid transparent;
-        display: inline-block;
         border-radius: 10px;
         padding: 20px;
         background-color: rgb(255, 255, 255);
         max-width: 384px;
         width: 100%;
-        transition: all 0.3s ease 0s;
+        transition: all 0.3s;
 }
 
 .link:hover {
         border: 1px solid rgb(255, 255, 255);
         background-color: transparent;
         color: rgb(255, 255, 255);
-}
-
-.el {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
 }
