@@ -1,1 +1,3 @@
-# xeon-for-pc.github.io
+# Xeon for PC
+
+# Продаж процесорів до ПК та серверів
