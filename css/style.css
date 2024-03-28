@@ -59,10 +59,6 @@ h1 {
         transition: color 0.3s;
 }
 
-h1:hover {
-        color: rgba(245, 245, 245, 0.6);
-}
-
 h2 {
         font-size: 20px;
         padding: 10px 0;
