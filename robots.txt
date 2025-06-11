@@ -1,8 +1,2 @@
 User-agent: Yandex
 Disallow: /
-
-User-agent: *
-Allow: /
-
-Sitemap: https://xeon-for-pc.github.io/sitemap.xml
-Host: https://xeon-for-pc.github.io/
