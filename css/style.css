@@ -21,6 +21,7 @@ body {
         text-align: center;
         color: rgb(255, 255, 255);
         line-height: normal;
+        font-size: 20px;
 }
 
 .container {
@@ -29,6 +30,7 @@ body {
         display: flex;
         max-width: 1215px;
         padding: 15px;
+
 }
 
 .main {
@@ -68,9 +70,7 @@ h2 {
         gap: 15px;
 }
 
-.text {
-        font-size: 19px;
-}
+/* .text {} */
 
 .links {
         display: grid;
@@ -85,9 +85,16 @@ h2 {
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
         color: black;
-        padding-block: 20px;
-        padding-inline: 5px;
-        font-size: 18px;
+        padding-block: 18px;
+        padding-inline: 10px;
+}
+
+@media (max-width:767.98px) {
+        .link {
+                font-size: 18px;
+                padding-block: 15px;
+                padding-inline: 7px;
+        }
 }
 
 .link:hover {
