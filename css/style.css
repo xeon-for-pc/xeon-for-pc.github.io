@@ -18,13 +18,13 @@ a {
 body {
         background-image: linear-gradient(rgb(4, 42, 68), rgb(20, 122, 142));
         font-family: "Inter", sans-serif;
-        font-size: 18px;
         text-align: center;
         color: rgb(255, 255, 255);
+        line-height: normal;
 }
 
 .container {
-        min-height: 100vh;
+        min-height: 100svh;
         margin: auto;
         display: flex;
         max-width: 1215px;
@@ -52,31 +52,30 @@ body {
         object-fit: cover;
 }
 
-h1 {
+h1,
+h2 {
         font-size: 40px;
         font-weight: 600;
-        line-height: 1.3;
+        margin-bottom: 10px;
 }
 
 h2 {
-        font-size: 20px;
-        padding: 10px 0;
-        line-height: 1.3;
+        font-size: 22px;
 }
 
-.el {
+.body {
         display: grid;
-        width: 100%;
-        grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr));
-        grid-auto-rows: 1fr;
-        gap: 10px;
+        gap: 15px;
+}
+
+.text {
+        font-size: 19px;
 }
 
 .links {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr));
+        gap: 10px;
 }
 
 .link {
@@ -87,15 +86,12 @@ h2 {
         transition: all 0.3s;
         color: black;
         padding-block: 20px;
-        padding-inline: 10px;
+        padding-inline: 5px;
+        font-size: 18px;
 }
 
 .link:hover {
         background-color: transparent;
         color: rgb(255, 255, 255);
-}
-
-.text {
-        margin-bottom: 15px;
-        /* text-align: justify; */
+        border: 1px solid rgb(255, 255, 255);
 }
