@@ -85,15 +85,15 @@ h2 {
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
         color: black;
-        padding-block: 18px;
+        padding-block: 20px;
         padding-inline: 10px;
 }
 
 @media (max-width:767.98px) {
         .link {
                 font-size: 18px;
-                padding-block: 15px;
-                padding-inline: 7px;
+                padding-block: 18px;
+                padding-inline: 10px;
         }
 }
 
