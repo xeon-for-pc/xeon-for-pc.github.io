@@ -28,9 +28,8 @@ body {
         min-height: 100svh;
         margin: auto;
         display: flex;
-        max-width: 1215px;
+        max-width: 390px;
         padding: 15px;
-
 }
 
 .main {
@@ -68,12 +67,15 @@ h2 {
 .body {
         display: grid;
         gap: 15px;
+
 }
 
 .links {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr));
+        /* grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); */
+        grid-template-columns: auto;
         gap: 10px;
+        justify-content: center;
 }
 
 .link {
@@ -84,14 +86,14 @@ h2 {
         transition: all 0.3s;
         color: black;
         padding-block: 20px;
-        padding-inline: 10px;
+        padding-inline: 15px;
 }
 
 @media (max-width:767.98px) {
         .link {
                 font-size: 18px;
                 padding-block: 18px;
-                padding-inline: 10px;
+                padding-inline: 15px;
         }
 }
 
